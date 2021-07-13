@@ -67,3 +67,26 @@ nav {
         color: $primary-color;
     }
 }
+
+.projects {
+    background-color: $secondary-color;
+
+    h1 {
+        color: $white;
+    }
+
+   .card:hover{
+    -moz-transform: rotate(-2deg);
+	-webkit-transform: rotate(-2deg);
+	-o-transform: rotate(-2deg);
+	-ms-transform: rotate(-2deg);
+    transform: scale(1.1) rotate(-2deg);
+    transition: transform ease-out;
+   }
+
+   .card-title {
+       color: $white;
+       font-weight: 600;
+       font-size: 1.5rem;
+   }
+}
