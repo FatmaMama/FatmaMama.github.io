@@ -35,3 +35,29 @@ nav {
         color: $primary-color !important;
     }
 }
+
+.home {
+    position: relative;
+    background-image: linear-gradient(to right bottom, #181818, #272727, #363636, #474747, #585858);
+    height: 100vh;
+
+    .container {
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        right: 10%;
+    }
+
+    div {
+        color: $white;
+    }
+
+    .name {
+        font-size: 4rem;
+        font-weight: 700;
+    }
+
+    span {
+        color: $primary-color;
+    }
+}
