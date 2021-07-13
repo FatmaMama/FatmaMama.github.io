@@ -6,3 +6,9 @@
     loop: true
 });
 
+var typed = new Typed(".typing2", {
+    strings: ["Developer"],
+    typeSpeed: 100,
+    backSpeed: 70,
+    loop: true
+});
