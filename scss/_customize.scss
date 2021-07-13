@@ -1,7 +1,31 @@
-@import 'customize';
+$primary-color: #FF69B4;
+$secondary-color: #212121;
+$light-gray: #616161;
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+$white:    #fff ;
+$gray-100: #f8f9fa ;
+$gray-200: #e9ecef ;
+$gray-300: #dee2e6 ;
+$gray-400: #ced4da ;
+$gray-500: #adb5bd ;
+$gray-600: #6c757d ;
+$gray-700: #495057 ;
+$gray-800: #343a40 ;
+$gray-900: #212529 ;
+$black:    #000 ;
+
+// import the functions & variables
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+
+$custom-theme-colors:(
+    "pink" : #FF69B4,
+    "gray": #212121,
+    "grayLight" : lighten($secondary-color, 10%),
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+// import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';

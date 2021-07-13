@@ -1,0 +1,37 @@
+@import 'customize';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #f1f1f1;
+}
+
+a {
+    color: $white !important;
+}
+
+nav {
+    background-color: $secondary-color;
+    .navbar-brand {
+        color: $white !important;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 2rem;
+    
+        span {
+            color: $primary-color;
+        }
+    }
+
+    li {
+        padding: 0 0.9rem;
+    }
+
+    a:hover {
+        color: $primary-color !important;
+    }
+}
