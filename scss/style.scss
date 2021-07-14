@@ -175,3 +175,27 @@ footer{
     color: darken($primary-color, 20%) !important;
     transform: scale(1.2);
 }
+
+// vertica styling
+.container__title {
+    margin-top: 8%;
+    color: $white;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.container__subtitle {
+    color: $white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.container__text {
+    color: $white;
+}
+
+.container__bold {
+    color: $primary-color;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
